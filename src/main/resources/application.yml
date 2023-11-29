@@ -1,0 +1,16 @@
+server:
+ port: 9090
+app:
+ name: springconfigdemo
+ greeting: Hello from default
+ values: One,Two,Three
+#db.values:{"server":"postgres","host":"localhost","port":"2094"}
+db:
+ server: postgres
+ host: localhost
+ port: 2094
+spring:
+  profiles:
+    active: test
+
+#java -jar appliname.jar  --spring.profiles.active="test"

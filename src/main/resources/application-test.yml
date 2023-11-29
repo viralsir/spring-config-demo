@@ -1,0 +1,13 @@
+server:
+  port: 9090
+app:
+  name: springconfigdemo
+  greeting: Hello from ${app.name}
+  values: One,Two,Three
+#db.values:{"server":"postgres","host":"localhost","port":"2094"}
+db:
+  server: mysqlserver
+  host: localhost
+  port: 2194
+
+
